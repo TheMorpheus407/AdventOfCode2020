@@ -1,5 +1,6 @@
 f = open('three')
 biome = [line.replace('\n', '') for line in f]
+f.close()
 
 list_right = [1, 3, 5, 7, 1]
 list_down = [1, 1, 1, 1, 2]
