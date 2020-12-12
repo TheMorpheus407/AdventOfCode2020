@@ -1,6 +1,6 @@
 import re
 
-with open("seven") as f:
+with open("07.txt") as f:
     lines = f.readlines()
 
 graph = {}

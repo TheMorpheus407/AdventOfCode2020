@@ -1,6 +1,6 @@
 import copy
 
-with open("eight") as f:
+with open("08.txt") as f:
     boot_sequence = f.read().splitlines()
 
 def part_one():

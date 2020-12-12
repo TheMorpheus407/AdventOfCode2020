@@ -1,4 +1,4 @@
-with open("twelve") as f:
+with open("12.txt") as f:
     lines = f.read().splitlines()
     route = [(i[0], int(i[1:])) for i in lines]
 

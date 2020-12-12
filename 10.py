@@ -1,4 +1,4 @@
-with open("ten") as f:
+with open("10.txt") as f:
     lines = f.read().splitlines()
     input = [0] + sorted([int(i) for i in lines])
     input = input + [max(input) + 3]
