@@ -1,6 +1,6 @@
 import re
 
-with open('four') as f:
+with open('04.txt') as f:
     passports_ugly = f.read().split('\n\n')
 
 

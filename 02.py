@@ -1,6 +1,6 @@
 import re
 lines = []
-with open("two") as f:
+with open("02.txt") as f:
     lines = f.readlines()
 
 valid = 0

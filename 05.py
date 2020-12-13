@@ -1,4 +1,4 @@
-with open('five') as f:
+with open('05.txt') as f:
     seats_original = f.readlines()
 
 #seats_original = ["FBFBBFFRLR", "BFFFBBFRRR", "FFFBBBFRRR", "BBFFBBFRLL"]

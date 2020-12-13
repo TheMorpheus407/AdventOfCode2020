@@ -1,4 +1,4 @@
-with open("six") as f:
+with open("06.txt") as f:
     groups = f.read().split('\n\n')
 
 from functools import reduce

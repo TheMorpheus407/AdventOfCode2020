@@ -1,7 +1,7 @@
 import itertools
 
 numbers = []
-with open("nine") as f:
+with open("09.txt") as f:
     for i in f.read().splitlines():
         numbers.append(int(i))
 

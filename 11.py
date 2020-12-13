@@ -60,12 +60,12 @@ def count_seated(seats):
     return list(itertools.chain(*seats)).count('#')
 
 
-with open("eleven") as f:
+with open("11.txt") as f:
     seats = f.read().splitlines()
 waiting_room = simulate(seats)
 print(count_seated(waiting_room))
 
-with open("eleven") as f:
+with open("11.txt") as f:
     seats = f.read().splitlines()
 waiting_room = simulate(seats, tolerance=5, on_sight=True)
 print(count_seated(waiting_room))

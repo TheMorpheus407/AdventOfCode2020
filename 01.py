@@ -1,5 +1,5 @@
 numbers = []
-with open("numbers") as f:
+with open("01.txt") as f:
     numbers = list(map(int, f.readlines()))
 
 for x in numbers:

@@ -1,4 +1,4 @@
-f = open('three')
+f = open('03.txt')
 biome = [line.replace('\n', '') for line in f]
 f.close()
 
